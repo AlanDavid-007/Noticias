@@ -24,7 +24,7 @@ if (isset($_POST['excluir'])) {
 
     $obNoticia->excluir();
 
-    header('location: index.php?status=error');
+    header('location: index.php?status=success');
     exit;
 }
 

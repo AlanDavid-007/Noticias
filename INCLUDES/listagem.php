@@ -27,7 +27,7 @@ if (isset($_GET['status'])) {
     <?php if (count($noticias) == 0) { ?>
         <div class="alert alert-secondary mt-3">Nenhuma Noticia encontrada</div>
     <?php } else { ?>
-        <table class="table bg-light mt-3">
+        <table class="table text-light mt-3 " id="table-listagem">
             <thead>
                 <tr>
                     <th>ID</th>
