@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';
 use \App\Entity\Noticia;
 
 $noticias = Noticia::getNoticias();
-// echo "<pre>"; print_r($vagas); echo "</pre>"; exit;
+// echo "<pre>"; print_r($Noticias); echo "</pre>"; exit;
 
 require __DIR__ . '/INCLUDES/header.php';
 
