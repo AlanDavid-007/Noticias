@@ -16,7 +16,7 @@
         </div>
         <div class="form-group">
             <label>Data</label>
-            <input type="date"  required class="form-control" required name="data" value=><?php echo isset($obNoticia->data) ? $obNoticia->data : ''; ?></input>     
+            <input type="date" required class="form-control" name="data" value="<?php echo isset($obNoticia->data) ? $obNoticia->data : ''; ?>">     
         </div>
         <div class="form-group">
             <label>Autor</label>
@@ -28,11 +28,13 @@
                 <div class="form-check form-check-inline">
 
                     <label>
-                        <input type="radio" required name="status" value="s" <?php echo isset($obNoticia->status) && $obNoticia->status == 's' ? 'checked' : ''; ?>>Ativo</input>
+                        <input type="radio" name="status" value="s" <?php echo isset($obNoticia->status) && $obNoticia->status == 's' ? 'checked' : ''; ?>>
+                        Ativo
                     </label>
 
                     <label class="ml-3">
-                        <input type="radio" required name="status" value="n" <?php echo isset($obNoticia->status) && $obNoticia->status == 'n' ? 'checked' : ''; ?>>Inativo</input>
+                        <input type="radio" name="status" value="n" <?php echo isset($obNoticia->status) && $obNoticia->status == 'n' ? 'checked' : ''; ?>>
+                        Inativo
                     </label>
                 </div>
             </div>
