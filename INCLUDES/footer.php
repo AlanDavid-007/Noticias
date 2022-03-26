@@ -132,6 +132,7 @@
         <div class="bubble" style="--size:4.8989298913987005rem; --distance:8.841310412448117rem; --position:4.472481170370147%; --time:3.8369940006568997s; --delay:-2.675037543575987s;"></div>
         <div class="bubble" style="--size:5.014541860052348rem; --distance:8.911238753877754rem; --position:64.38481264517578%; --time:2.868490803991118s; --delay:-2.742818729269079s;"></div>
     </div>
+    <h3 style="margin-top: 5%; z-index:3; margin: auto;">Created by <a href="https://github.com/AlanDavid-007" style="text-decoration: none;">AlanDavid-007</a></h3>
 </div><svg style="position:fixed; top:100vh">
     <defs>
         <filter id="blob">
