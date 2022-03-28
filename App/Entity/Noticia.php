@@ -121,7 +121,7 @@ class Noticia
     public function atualizar()
     {
         //Definir a data
-        $this->data = date('Y-m-d H:i:s');
+        $this->data = date('Y-m-d');
 
         $objDatabase = new Database('noticias');
 
